@@ -24,9 +24,9 @@ export default function Home() {
       <Navigation />
       <main>
         <Hero />
+        <About />
         <Stats />
         <Services />
-        <About />
         <Process />
         <Portfolio />
         <Team />
