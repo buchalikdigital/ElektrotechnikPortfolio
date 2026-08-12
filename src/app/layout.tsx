@@ -35,6 +35,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "de_DE",
   },
+  // Fiktives Demo-Projekt — bewusst von der Indexierung ausgeschlossen.
+  robots: { index: false, follow: false },
 };
 
 export default function RootLayout({
